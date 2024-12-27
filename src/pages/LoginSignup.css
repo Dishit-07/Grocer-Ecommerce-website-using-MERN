@@ -1,0 +1,84 @@
+.loginsignup{
+    width: 100%;
+    height: auto;
+    background: #def6e4;
+    padding: 100px 0px;
+}
+.loginsignup-container{
+    display: flex;
+    flex-direction: column;
+    width: 588px;
+    /* height: 600px; */
+    background: white;
+    margin: auto;
+    padding: 40px 60px;
+    /* align-items: center; */
+    /* justify-content: center; */
+    h1{
+        margin: 20px 0px;
+    }
+    button{
+        /* display: flex; */
+        /* align-items: center; */
+        width: 100%;
+        height: 72px;
+        color: white;
+        background: #2a5829;
+        margin-top: 30px;
+        border: none;
+        font-size: 24px;
+        font-weight: 500;
+        cursor: pointer;
+    }
+    button:hover{
+        background: #449958;
+    }
+    button:active{
+        color: black;
+        background: #f3f3f3;
+    }
+}
+.loginsignup-fields{
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+    margin-top: 30px;
+    input{
+        height: 70px;
+        width: 100%;
+        padding-left: 20px;
+        border: 1px solid #c9c9c9;
+        outline: none;
+        color: #5c5c5c;
+        font-size: 18px;
+    }
+}
+.loginsignup-login{
+    margin-top: 20px;
+    color: #5c5c5c;
+    font-size: 18px;
+    font-weight: 500;
+}
+.loginsignup-login span{
+    color: #2a5829;
+    font-weight: 600;
+    cursor: pointer;
+}
+.loginsignup-login span:hover{
+    color: #449958;
+}
+.loginsignup-login span:active{
+    color:#2a5829;
+}
+.loginsignup-agree{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    gap: 20px;
+    color: #5c5c5c;
+    font-size: 18px;
+    font-weight: 500;
+    input:checked{
+        accent-color: black;
+    }
+}
